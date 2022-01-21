@@ -9,7 +9,7 @@ async function bootstrap() {
 
   const config = new DocumentBuilder()
     .setTitle('Transactions')
-    .setDescription('The cats API description')
+    .setDescription('API for transactions. You can register users and create some transactions. Try some of the functionality below!')
     .setVersion('1.0')
     .addBearerAuth(
       { type: 'http', scheme: 'bearer', bearerFormat: 'JWT', in: 'header' },
